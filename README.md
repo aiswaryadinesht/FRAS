@@ -1,6 +1,8 @@
 # FRAS
+
 Face Recognition automated Attendance System
-#######################################################################################
+
+#######################################################
 Download the code and create 5 folders in FRAS folder.
 1.Attendance.
 2.ImagesUnknown.
