@@ -1,5 +1,7 @@
 from tkinter import *
 import os
+import Recognize
+
 root1 = Tk()
 root1.title("Students Portal")
 width = 400
@@ -11,7 +13,9 @@ y = (screen_height/2) - (height/2)
 root1.geometry("%dx%d+%d+%d" % (width, height, x, y))
 root1.resizable(0, 0)
 def markattend():
-    os.system("py Recognize.py")
+    #os.system("py Recognize.py")
+    Recognize.recognize_attendence()
+
 class App:
     def __init__(self, master):
         self.frame = Frame(master)
